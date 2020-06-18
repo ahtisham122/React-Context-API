@@ -1,11 +1,11 @@
 import React from 'react';
 
-function App() {
+function Child(props) {
     return (
       <div>
-  
+        Age = {props.num}
       </div>
     );
   }
   
-  export default App;
+  export default Child;

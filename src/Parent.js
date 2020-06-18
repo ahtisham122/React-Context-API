@@ -1,11 +1,12 @@
 import React from 'react';
+import Child from './Child';
 
-function App() {
+function Parent(props) {
     return (
       <div>
-  
+        <Child num={props.num}></Child>
       </div>
     );
   }
   
-  export default App;
+  export default Parent;
